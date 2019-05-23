@@ -50,7 +50,7 @@ t = [1, 2, 3]
 T = []
 for i in range(len(t)):
     su = 0
-    print(i)
+    #print(i)
     while i >= 0:
         su += t[i]
         i = i -1
